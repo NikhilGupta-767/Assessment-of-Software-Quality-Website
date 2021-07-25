@@ -1,0 +1,9 @@
+<?php 
+session_start();
+$_SESSION['product']=0;
+$_SESSION['project']=0;
+$_SESSION['process']=0;
+?>
+<script>
+    window.location.href='home.php';
+    </script>
